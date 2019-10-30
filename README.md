@@ -87,11 +87,11 @@ my_df.head()
 ```
 measurement	| tag_key  | tag_value | field     | value   | datetime
 ----------- | -------  | --------- | -----     | -----   | --------
-activity	| type     | ballet	   | fun_level | 6.0	 | 2019-10-24 18:10:17.529757
-activity	| location | us	       | fun_level | 6.0	 | 2019-10-24 18:10:17.529757
-activity	| type	   | tennis	   | fun_level | 8.0	 | 2019-10-24 18:10:17.529757
-activity	| location | eur	   | fun_level | 8.0	 | 2019-10-24 18:10:17.529757
-activity	| type	   | soccer	   | fun_level | 9.0	 | 2019-10-24 18:10:17.529757
+activity	  | type     | ballet	   | fun_level | 6.0	 | 2019-10-24 18:10:17.529757
+activity	  | location | us	       | fun_level | 6.0	 | 2019-10-24 18:10:17.529757
+activity  	| type	   | tennis	   | fun_level | 8.0	 | 2019-10-24 18:10:17.529757
+activity  	| location | eur	     | fun_level | 8.0	 | 2019-10-24 18:10:17.529757
+activity  	| type	   | soccer	   | fun_level | 9.0	 | 2019-10-24 18:10:17.529757
 ```
 
 ### Writes
