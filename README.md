@@ -66,7 +66,7 @@ write_api = client.write_api(write_options=SYNCHRONOUS)
 ### How to build a simple flux query wi
 
 ```
-query = build_flux_query("pandas ",["activity","weather","test"],{"location":["eur","us"],"season":["fall","summer"]},"-5d","-1h")
+query = build_flux_query(bucket="my_bucket", start="-1h", stop="2h", filters=[("_measurement",["activities"]),("location":["eur","us")],("season":["fall","summer"])) 
 ```
 
 The output looks like: 
